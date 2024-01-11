@@ -97,4 +97,43 @@
             background-color: #ffffff90;
         }
     }
+
+}
+
+
+.circle6>span {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.circle7 {
+    background-color: #78787847;
+    width: 600px;
+    height: 300px;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    border-radius: 10px;
+}
+
+.circle7-1 {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.circle8 {
+    width: 200px;
+    height: 200px;
+    stroke: #fff; // svg css들
+    stroke-width: 2; // svg css들
+    stroke-linejoin: round; // svg css들
+    stroke-linecap: round; // svg css들
+    padding: 20px;
+    background-color: #ccc;
 }
